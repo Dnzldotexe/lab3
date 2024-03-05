@@ -12,7 +12,7 @@
     <link rel="icon" href="https://www.apc.edu.ph/wp-content/uploads/2019/05/cropped-apc-icon-192x192.png" sizes="192x192"/>
     <link rel="apple-touch-icon" href="https://www.apc.edu.ph/wp-content/uploads/2019/05/cropped-apc-icon-180x180.png"/>
     <!-- <link rel="stylesheet" href="/css/style.css"> -->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>CSS/style.css">
     <style>
         h1 {
             margin-top: 5rem;

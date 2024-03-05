@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <!-- CSS  -->
     <!-- <link rel="stylesheet" href="/css/style.css"> -->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>CSS/style.css">
     <link rel="icon" href="https://www.apc.edu.ph/wp-content/uploads/2019/05/cropped-apc-icon-192x192.png" sizes="192x192"/>
     <link rel="apple-touch-icon" href="https://www.apc.edu.ph/wp-content/uploads/2019/05/cropped-apc-icon-180x180.png"/>
 </head>
@@ -17,7 +17,7 @@
     <!-- Navigation bar  -->
     <nav>
         <!-- Home  -->
-        <a id="home" href="https://apcwebprog.csf.ph/~dtcempron/lab2/week8/">dtcempron</a>
+        <a id="home" href="/lab3/ci4/public/index">dtcempron</a>
         <!-- Socials  -->
         <a href="https://www.linkedin.com/in/danzielc/" target="_blank"><img id="linkedin" src="<?php echo base_url(); ?>IMAGES/linkedin-box-fill.png" alt="LinkedIn Icon"></a>
         <a href="https://github.com/Dnzldotexe/lab2" target="_blank"><img id="github" src="<?php echo base_url(); ?>IMAGES/github-fill.png" alt="GitHub Icon"></a>
@@ -204,7 +204,7 @@
         <div>
             <h1>Shill me some</h1>
             <!-- Pseudo Form  -->
-            <a id="link-hover" href="forms.php" target="_blank">My Pseudo Eval Form</a>
+            <a id="link-hover" href="/lab3/ci4/public/forms" target="_blank">My Pseudo Eval Form</a>
         </div>
     </div>
     <div class="container-1">
@@ -241,13 +241,13 @@
         echo "ensuring that you never have a prolonged bout of depression ever again.<br>";
     ?>
     <div style="margin: 2rem 0;">
-       <a id="link-hover" href="https://apcwebprog.csf.ph/~dtcempron/lab2/week8/resources.php" target="_blank">Resources</a>
+       <a id="link-hover" href="/lab3/ci4/public/resources" target="_blank">Resources</a>
     </div>
     <div id="status-bar"></div>
     <footer>
         <p>© 2023 dtcempron.</p>
     </footer>
     <!-- JavaScript  -->
-    <script src="script.js"></script>
+    <script src="<?php echo base_url(); ?>JS/script.js"></script>
 </body>
 </html>
