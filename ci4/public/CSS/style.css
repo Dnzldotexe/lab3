@@ -22,11 +22,16 @@ body {
 /* Nav styles */
 nav {
     display: flex;
-    width: 90%;
+    justify-content: space-between;
+    width: 50%;
     margin-top: 1.5rem;
 }
 
-nav a {
+nav div {
+    display: flex;
+}
+
+nav div a {
     margin-right: 0.8rem;
     padding: 0.5rem 0.5rem 0.2rem;
     background-color: #1E1E30;
@@ -36,13 +41,22 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
+nav .right-side a {
+    transform: scale(1.2);
+    /* margin-right: 0.8rem; */
+}
+
+nav div a:hover {
     background-color: #403F60;
     transform: scale(1.1);
 }
 
-#home {
-    padding: 0.5rem 1rem 0rem;
+nav .right-side a:hover {
+    transform: scale(1.3);
+}
+
+#home, #films {
+    padding: 0.5rem 1rem;
 }
 
 
@@ -123,6 +137,9 @@ h1, a, nav a:hover {
 }
 
 @media (max-width: 768px) {
+    nav {
+        width: 90%;
+    }
     #films-container {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -204,4 +221,20 @@ h1, a, nav a:hover {
 ::-webkit-scrollbar-thumb {
     background: #041C32;
     border-radius: 5px;
+}
+
+
+/* Table content alignment */
+table, td, th {
+    border: 1px solid white;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+}
+
+td {
+    text-align: center;
+    padding: 1rem;
 }

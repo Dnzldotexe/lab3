@@ -18,4 +18,6 @@ $routes->get('news/(:segment)', [News::class, 'show']); // Add this line
 
 $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
-$routes->get('/', 'Home::index');
+// $routes->get('/', 'Home::index');
+// $routes->get('/', 'Home::dtcempron');
+$routes->get('/', [Pages::class, 'view']);

@@ -10,7 +10,7 @@ class Pages extends BaseController
         return view('welcome_message');
     }
 
-    public function view($page = 'home')
+    public function view($page = 'dtcempron')
     {
         if (! is_file(APPPATH . 'Views/pages/' . $page . '.php')) {
             // Whoops, we don't have a page for that!
@@ -19,11 +19,8 @@ class Pages extends BaseController
 
         $data['title'] = ucfirst($page); // Capitalize the first letter
 
-        // return view('templates/header', $data)
-        //     . view('pages/' . $page)
-        //     . view('templates/footer');
-        // return view('templates/header', $data)
-        return view('pages/' . $page);
-            // . view('templates/footer');
+        return view('templates/header', $data)
+            . view('pages/' . $page)
+            . view('templates/footer');
     }
 }

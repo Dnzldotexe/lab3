@@ -1,27 +1,27 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danziel Cempron</title>
-    <!-- Inter font cdn  -->
+
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <!-- CSS  -->
-    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+
+
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>CSS/style.css">
     <link rel="icon" href="https://www.apc.edu.ph/wp-content/uploads/2019/05/cropped-apc-icon-192x192.png" sizes="192x192"/>
     <link rel="apple-touch-icon" href="https://www.apc.edu.ph/wp-content/uploads/2019/05/cropped-apc-icon-180x180.png"/>
 </head>
 <body>
-    <!-- Navigation bar  -->
+
     <nav>
-        <!-- Home  -->
+
         <a id="home" href="/lab3/ci4/public/index">dtcempron</a>
-        <!-- Socials  -->
+
         <a href="https://www.linkedin.com/in/danzielc/" target="_blank"><img id="linkedin" src="<?php echo base_url(); ?>IMAGES/linkedin-box-fill.png" alt="LinkedIn Icon"></a>
         <a href="https://github.com/Dnzldotexe/lab2" target="_blank"><img id="github" src="<?php echo base_url(); ?>IMAGES/github-fill.png" alt="GitHub Icon"></a>
-    </nav>
+    </nav> -->
     <!-- Profile  -->
     <div id="profile">
         <!-- Profile Picture  -->
@@ -244,10 +244,10 @@
        <a id="link-hover" href="/lab3/ci4/public/resources" target="_blank">Resources</a>
     </div>
     <div id="status-bar"></div>
-    <footer>
+    <!-- <footer>
         <p>© 2023 dtcempron.</p>
-    </footer>
+    </footer> -->
     <!-- JavaScript  -->
     <script src="<?php echo base_url(); ?>JS/script.js"></script>
-</body>
-</html>
+<!-- </body>
+</html> -->

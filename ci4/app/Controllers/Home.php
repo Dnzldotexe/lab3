@@ -8,4 +8,10 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+    public function dtcempron(): string
+    {
+        return view('templates/header')
+            . view('Views/pages/dtcempron')
+            . view('templates/footer');
+    }
 }
