@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo lcfirst($title); ?></title>
+    <?php
+        if (lcfirst($title) !== "dtcempron") {
+            echo "<title>dtcempron | " . lcfirst($title) . "</title>";
+        } else {
+            echo "<title>dtcempron</title>";
+        }
+    ?>
     <!-- Inter font cdn -->
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">

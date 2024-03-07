@@ -1,16 +1,66 @@
 <div class="container-1">
     <h1 id="skills">Skills</h1>
-    <h2>Programming</h2>
-    <h2>Web</h2>
-    <h2>Data</h2>
-    <h2>Tools</h2>
+    <div class="skills-container">
+        <div class="skill-identifier">
+            <h3>Programming</h3>
+        </div>
+        <div class="skill-set">
+            <p>Python</p>
+            <p>Bash</p>
+            <p>Java</p>
+        </div>
+        <div class="skill-identifier">
+            <h3>Web</h3>
+        </div>
+        <div class="skill-set">
+            <p>HTML/CSS/JavaScript</p>
+            <p>PHP</p>
+            <p>CodeIgniter</p>
+            <p>Streamlit</p>
+        </div>
+        <div class="skill-identifier">
+            <h3>Data</h3>
+        </div>
+        <div class="skill-set">
+            <p>SQL</p>
+            <p>Pandas</p>
+            <p>SKLearn</p>
+            <p>Excel/Tableau</p>
+            <p>R</p>
+        </div>
+        <div class="skill-identifier">
+            <h3>Tools</h3>
+        </div>
+        <div class="skill-set">
+            <p>VSCode</p>
+            <p>Git/GitHub</p>
+            <p>JupyterNotebook</p>
+            <p>Vim</p>
+        </div>
+    </div>
 </div>
 <div class="container-1">
     <h1 id="projects">Projects</h1>
+    <div class="projects-container">
+        <div class="project-item"><img src="https://raw.githubusercontent.com/Dnzldotexe/Embeddable/main/IMAGES/embeddable.streamlit.app_.png" alt="String Manipulation"></div>
+        <div class="project-item"><img src="https://raw.githubusercontent.com/Dnzldotexe/trading-size-calculator-streamlit/main/IMAGES/position_size_calculator_with_inputs.png" alt="Risk Calculator"></div>
+        <div class="project-item"><img src="https://raw.githubusercontent.com/Dnzldotexe/Bawat_Patak/main/IMAGES/bawat-patak.streamlit.app_login.png" alt="Bawat Patak login"></div>
+        <div class="project-item"><img src="https://raw.githubusercontent.com/Dnzldotexe/Bawat_Patak/main/IMAGES/bawat-patak.streamlit.app_dashboard.png" alt="Bawat Patak dashboard"></div>
+    </div>
 </div>
 <div class="container-1">
     <h1 id="about">About Me</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, molestias.</p>
+    <!-- Description  -->
+    <p>I'm an aspiring Data Engineer with 2 years of learning experience in Python and Shell. 
+        Currently, I am taking a Bachelor's Degree in Computer Science at Asia Pacific College. 
+        My experience in Python programming language has led me to an amazing 3 side projects and numerous happy codes (you can browse my GitHub). 
+        From a simple <a id="link-hover" href="https://github.com/Dnzldotexe/Embeddable" target="_blank">text modifier</a>, to a 
+        simple <a id="link-hover" href="https://github.com/Dnzldotexe/trading-size-calculator-streamlit" target="_blank">risk calculator</a> to feed my crypto copium, 
+        to a semi-complex application that can help you <a id="link-hover" href="https://github.com/Dnzldotexe/Bawat_Patak" target="_blank">track your water bill</a>. 
+        Did I tell you that I am a fan of well-made films and TV shows? If you are too, then we can be friends. 
+        Please shill me some of your favorite films and TV shows. I would love to watch them. 
+        Below are my favorite films and TV shows that I can remember. Enjoy!
+    </p>
 </div>
 <div class="container-1">
     <h1 id="faves">Fave Films</h1>
@@ -23,7 +73,7 @@
         </div>
         <div class="films">
             <a href="https://zoechip.cc/tv/loki-42258" target="_blank">
-                <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rqDoCJEM3SNaX1h2PjCCVkgoql2.jpg" alt="poster">
+                <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/voHUmluYmKyleFkTu3lOXQG702u.jpg" alt="poster">
             </a>
             <p>Loki</p><p class="rating"><img id="star" src="<?php echo base_url(); ?>IMAGES/star-fill.png" alt="My Rating">5</p>
         </div>

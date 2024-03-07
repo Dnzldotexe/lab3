@@ -25,6 +25,7 @@ nav {
     justify-content: space-between;
     width: 50%;
     margin-top: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 nav div {
@@ -112,6 +113,47 @@ h1, a, nav a:hover {
 }
 
 
+/* Skills container */
+.skills-container {
+    max-width: 639px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: -1.5rem;
+}
+
+.skills-container h3, .skills-container p {
+    /* all: unset; */
+    margin: 0;
+}
+
+.skill-set {
+    display: flex;
+    /* margin-right: 6rem; */
+}
+
+.skill-set p {
+    margin-right: 2rem;
+}
+
+
+/* Projects */
+.projects-container {
+    height: 418px;
+    /* display: flex; */
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.project-item {
+    scroll-snap-align: start;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+}
+
+
 /* Favorite Films styles */
 #films-container {
     display: grid;
@@ -146,6 +188,21 @@ h1, a, nav a:hover {
 }
 
 @media (max-width: 639px) {
+    .skills-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skill-set {
+        margin-bottom: 1rem;
+    }
+
+    .skill-set p {
+        margin-right: 0.5rem;
+    }
+
+    .projects-container {
+        height: 210px;
+    }
+
     #films-container {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 0.5rem;
@@ -226,7 +283,7 @@ h1, a, nav a:hover {
 
 /* Table content alignment */
 table, td, th {
-    border: 1px solid white;
+    border: 0.1rem solid white;
 }
 
 table {
@@ -236,5 +293,13 @@ table {
 
 td {
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0;
+}
+
+td a {
+    padding: 1rem 3rem;
+}
+
+td:hover {
+    background-color: #403F60;
 }
