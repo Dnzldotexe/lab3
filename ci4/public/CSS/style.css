@@ -52,10 +52,6 @@ nav div a:hover {
     transform: scale(1.1);
 }
 
-nav div a:active {
-    color: #A359EC;
-}
-
 nav .right-side a:hover {
     transform: scale(1.3);
 }
