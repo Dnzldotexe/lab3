@@ -46,6 +46,7 @@
         <div class="project-item"><img src="https://raw.githubusercontent.com/Dnzldotexe/trading-size-calculator-streamlit/main/IMAGES/position_size_calculator_with_inputs.png" alt="Risk Calculator"></div>
         <div class="project-item"><img src="https://raw.githubusercontent.com/Dnzldotexe/Bawat_Patak/main/IMAGES/bawat-patak.streamlit.app_login.png" alt="Bawat Patak login"></div>
         <div class="project-item"><img src="https://raw.githubusercontent.com/Dnzldotexe/Bawat_Patak/main/IMAGES/bawat-patak.streamlit.app_dashboard.png" alt="Bawat Patak dashboard"></div>
+        <div class="project-item"><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTc3dmhmcGFidHV4YnZ2eTZkbzN4ZXhmdHpnOTBmeWVrZnQxeG9pYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kFgzrTt798d2w/giphy.gif" alt="My Favorite Singer easter egg"></div>
     </div>
 </div>
 <div class="container-1">
