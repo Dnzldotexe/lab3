@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 use CodeIgniter\Exceptions\PageNotFoundException;
+use App\Models\FilmsModel;
 
 class Pages extends BaseController
 {
@@ -17,10 +18,25 @@ class Pages extends BaseController
             throw new PageNotFoundException($page);
         }
 
-        $data['title'] = ucfirst($page); // Capitalize the first letter
+        if ($page == 'films') {
+            $model = model(FilmsModel::class);
+            
+            $data = [
+                'title' => ucfirst($page),
+                'films' => $model->getUserFilms(),
+            ];
 
-        return view('templates/header', $data)
-            . view('pages/' . $page)
-            . view('templates/footer');
+            return view('templates/header', $data)
+                . view('pages/' . $page)
+                . view('templates/footer');
+        }
+
+        else {
+            $data['title'] = ucfirst($page); // Capitalize the first letter
+
+            return view('templates/header', $data)
+                . view('pages/' . $page)
+                . view('templates/footer');
+        }
     }
 }

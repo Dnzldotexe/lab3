@@ -74,7 +74,7 @@
         </div>
         <div class="films">
             <a href="https://zoechip.cc/tv/loki-42258" target="_blank">
-                <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/voHUmluYmKyleFkTu3lOXQG702u.jpg" alt="poster">
+                <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rqDoCJEM3SNaX1h2PjCCVkgoql2.jpg" alt="poster">
             </a>
             <p>Loki</p><p class="rating"><img id="star" src="<?php echo base_url(); ?>IMAGES/star-fill.png" alt="My Rating">5</p>
         </div>
