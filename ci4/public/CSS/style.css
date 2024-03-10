@@ -281,6 +281,51 @@ h1, a, nav a:hover {
 }
 
 
+/* Forms */
+input {
+    width: 90%;
+    /* width: 20rem; */
+    color: white;
+    background: #1E1E30;
+    height: 2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+label {
+    display: block;
+}
+
+button {
+    width: 98%;
+    color: white;
+    background: #2D1A47;
+    height: 3rem;
+    margin-top: 0.5rem;
+    padding-bottom: 0.2rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+input:hover {
+    background: #403F60;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #A359EC;
+}
+
+
 /* Table content alignment */
 table, td, th {
     border: 0.1rem solid white;

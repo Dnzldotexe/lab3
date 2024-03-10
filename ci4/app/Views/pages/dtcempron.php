@@ -118,6 +118,59 @@
 </div>
 <div class="container-1">
     <h1 id="your-faves">Your Faves?</h1>
+    <?= session()->getFlashdata('error') ?>
+    <?= validation_list_errors() ?>
+    <form action="/films" method="post">
+        <?= csrf_field() ?>
+
+        <label for="title">Title</label>
+        <input type="input" name="title" value="<?= set_value('title') ?>" placeholder="What do you wanna call it?">
+        <br>
+
+        <label for="userName">Username</label>
+        <input type="input" name="userName" value="<?= set_value('userName') ?>" placeholder="Who do you wanna be?">
+        <br>
+
+        <div class="input-container">
+            <div class="films-input">
+                <label for="filmOne">Film Name</label>
+                <input type="input" name="filmOne" value="<?= set_value('filmOne') ?>" placeholder="What're">
+                <br>
+
+                <label for="filmTwo">Film Name</label>
+                <input type="input" name="filmTwo" value="<?= set_value('filmTwo') ?>" placeholder="Your">
+                <br>
+
+                <label for="filmThree">Film Name</label>
+                <input type="input" name="filmThree" value="<?= set_value('filmThree') ?>" placeholder="Favorite">
+                <br>
+
+                <label for="filmFour">Film Name</label>
+                <input type="input" name="filmFour" value="<?= set_value('filmFour') ?>" placeholder="Films?">
+                <br>
+            </div>
+
+            <div class="posters-input">
+                <label for="posterOne">Film Poster</label>
+                <input type="input" name="posterOne" value="<?= set_value('posterOne') ?>" placeholder="Paste">
+                <br>
+
+                <label for="posterTwo">Film Poster</label>
+                <input type="input" name="posterTwo" value="<?= set_value('posterTwo') ?>" placeholder="Poster">
+                <br>
+
+                <label for="posterThree">Film Poster</label>
+                <input type="input" name="posterThree" value="<?= set_value('posterThree') ?>" placeholder="Links">
+                <br>
+
+                <label for="posterFour">Film Poster</label>
+                <input type="input" name="posterFour" value="<?= set_value('posterFour') ?>" placeholder="Here">
+                <br>
+            </div>
+        </div>
+
+        <button type="submit">Commit</button>
+    </form>
 </div>
 <div class="container-1">
     <h1 id="resources">Resources</h1>
@@ -127,24 +180,12 @@
         <th>Link</th>
     </tr> -->
     <tr>
-        <td>HTML</td>
-        <td><a id="link-hover" href="https://www.w3schools.com/html/default.asp" target="_blank">www.w3schools.com</a></td>
-    </tr>
-    <tr>
-        <td>CSS</td>
-        <td><a id="link-hover" href="https://www.w3schools.com/css/default.asp" target="_blank">www.w3schools.com</a></td>
-    </tr>
-    <tr>
-        <td>JavaScript</td>
-        <td><a id="link-hover" href="https://www.w3schools.com/js/default.asp" target="_blank">www.w3schools.com</a></td>
+        <td>Film Posters</td>
+        <td><a id="link-hover" href="https://www.themoviedb.org/" target="_blank">themoviedb.org</a></td>
     </tr>
     <tr>
         <td>UI Layout and Color Palette</td>
         <td><a id="link-hover" href="https://movie-web.app/" target="_blank">movie-web.app</a></td>
-    </tr>
-    <tr>
-        <td>Movie Posters</td>
-        <td><a id="link-hover" href="https://www.themoviedb.org/" target="_blank">www.themoviedb.org</a></td>
     </tr>
     <tr>
         <td>Font</td>
@@ -153,6 +194,26 @@
     <tr>
         <td>Icons</td>
         <td><a id="link-hover" href="https://remixicon.com/" target="_blank">remixicon.com</a></td>
+    </tr>
+    <tr>
+        <td>HTML</td>
+        <td><a id="link-hover" href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools.com</a></td>
+    </tr>
+    <tr>
+        <td>CSS</td>
+        <td><a id="link-hover" href="https://www.w3schools.com/css/default.asp" target="_blank">w3schools.com</a></td>
+    </tr>
+    <tr>
+        <td>JavaScript</td>
+        <td><a id="link-hover" href="https://www.w3schools.com/js/default.asp" target="_blank">w3schools.com</a></td>
+    </tr>
+    <tr>
+        <td>PHP</td>
+        <td><a id="link-hover" href="https://www.w3schools.com/php/default.asp" target="_blank">w3schools.com</a></td>
+    </tr>
+    <tr>
+        <td>CodeIgniter4</td>
+        <td><a id="link-hover" href="https://codeigniter.com/user_guide/index.html" target="_blank">codeigniter.com</a></td>
     </tr>
 </table>
 </div>

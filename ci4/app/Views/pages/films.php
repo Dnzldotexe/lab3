@@ -1,8 +1,8 @@
 <div class="container-1">
     <h1 id="film-wall">Wall of Films</h1>
     <?php foreach ($films as $film): ?>
-    <h3><?= esc($film['title']) ?> - <?= esc($film['userName']) ?></h3>
-    <div>
+    <h2 id="<?= esc($film['slug']) ?>"><?= esc($film['title']) ?> - <?= esc($film['userName']) ?></h2>
+    <div style="margin-bottom: 2rem;">
         <div id="films-container">
             <div class="films">
                 <a href="">

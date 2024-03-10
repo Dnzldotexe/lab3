@@ -8,7 +8,7 @@ class FilmsModel extends Model
 {
     protected $table = 'userfilms';
 
-    protected $allowedFields = [];
+    protected $allowedFields = ['title', 'slug', 'userName', 'filmOne', 'filmTwo', 'filmThree', 'filmFour', 'posterOne', 'posterTwo', 'posterThree', 'posterFour'];
 
     public function getUserFilms($slug = false)
     {

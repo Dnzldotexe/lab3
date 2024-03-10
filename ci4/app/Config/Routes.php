@@ -21,3 +21,4 @@ $routes->get('(:segment)', [Pages::class, 'view']);
 // $routes->get('/', 'Home::index');
 // $routes->get('/', 'Home::dtcempron');
 $routes->get('/', [Pages::class, 'view']);
+$routes->post('/films', [Pages::class, 'create']);
