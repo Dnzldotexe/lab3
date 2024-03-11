@@ -20,5 +20,5 @@ $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
 // $routes->get('/', 'Home::index');
 // $routes->get('/', 'Home::dtcempron');
-$routes->get('/~dtcempron\/', [Pages::class, 'view']);
-$routes->post('/~dtcempron/films', [Pages::class, 'create']);
+$routes->get('/~dtcempron/lab3/ci4/public/', [Pages::class, 'view']);
+$routes->post('/~dtcempron/lab3/ci4/public/films', [Pages::class, 'create']);
