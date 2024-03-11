@@ -6,6 +6,9 @@ use App\Controllers\Guests; // Add this line
 use App\Controllers\News; // Add this line
 use App\Controllers\Pages;
 
+$routes->get('/', [Pages::class, 'view']);
+$routes->post('/films', [Pages::class, 'create']);
+
 $routes->get('guests', [Guests::class, 'index']);           // Add this line
 $routes->get('guests/new', [Guests::class, 'new']); // Add this line
 $routes->post('guests', [Guests::class, 'create']); // Add this line
@@ -20,5 +23,3 @@ $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
 // $routes->get('/', 'Home::index');
 // $routes->get('/', 'Home::dtcempron');
-$routes->get('/~dtcempron/lab3/ci4/public/', [Pages::class, 'view']);
-$routes->post('/~dtcempron/lab3/ci4/public/films', [Pages::class, 'create']);
