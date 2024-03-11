@@ -8,10 +8,14 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
-    public function dtcempron(): string
+    public function dtcempron($page = 'dtcempron'): string
     {
-        return view('templates/header')
-            . view('Views/pages/dtcempron')
-            . view('templates/footer');
+            helper('form');
+
+            $data['title'] = ucfirst($page); // Capitalize the first letter
+            
+            return view('templates/header', $data)
+                . view('pages/' . $page)
+                . view('templates/footer');
     }
 }
