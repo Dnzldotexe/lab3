@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class FilmsModel extends Model
 {
-    protected $table = 'userfilms';
+    protected $table = 'dtcempron_userfilms';
 
     protected $allowedFields = ['title', 'slug', 'userName', 'filmOne', 'filmTwo', 'filmThree', 'filmFour', 'posterOne', 'posterTwo', 'posterThree', 'posterFour'];
 
