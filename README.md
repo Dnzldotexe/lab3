@@ -1,6 +1,20 @@
 # lab3
 lab3 for WEBPROG class
+    
+## Link to Website -> https://apcwebprog.csf.ph/~dtcempron/lab3/ci4/public/    
 
+
+
+
+
+
+
+
+
+
+
+    
+### Don't mind this SQL table. I pasted it here so I could replicate it on the server. CHeers!!!
 SQL TABLE
 
 CREATE TABLE dtcempron_userfilms (
