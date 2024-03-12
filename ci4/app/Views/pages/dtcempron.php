@@ -120,7 +120,7 @@
     <h1 id="your-faves">Your Faves?</h1>
     <?= session()->getFlashdata('error') ?>
     <?= validation_list_errors() ?>
-    <form action="/films" method="post">
+    <form action="/~dtcempron/lab3/ci4/public/films" method="post">
         <?= csrf_field() ?>
 
         <label for="title">Title</label>
