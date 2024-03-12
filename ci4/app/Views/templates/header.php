@@ -27,9 +27,9 @@
         <!-- Home  -->
         <div class="left-side">
             <!-- <a id="home" href="/lab3/ci4/public/">dtcempron</a> -->
-            <a id="home" href="/">dtcempron</a>
+            <a id="home" href="/~dtcempron/lab3/ci4/public/">dtcempron</a>
             <!-- <a id="films" href="/lab3/ci4/public/films">films</a> -->
-            <a id="films" href="/films">films</a>
+            <a id="films" href="/~dtcempron/lab3/ci4/public/">films</a>
         </div>
         <!-- Socials  -->
         <div class="right-side">

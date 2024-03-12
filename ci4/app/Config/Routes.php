@@ -19,6 +19,6 @@ $routes->get('news/(:segment)', [News::class, 'show']); // Add this line
 $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
 // $routes->get('/', 'Home::index');
-$routes->get('/', 'Home::dtcempron');
-// $routes->get('/dtcempron', [Pages::class, 'view']);
+// $routes->get('/', 'Home::dtcempron');
+$routes->get('/', [Pages::class, 'view']);
 $routes->post('/films', [Pages::class, 'create']);
